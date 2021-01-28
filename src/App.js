@@ -8,7 +8,7 @@ function App() {
           <div className="navbar-header">
             <button
               type="button"
-              class="navbar-toggle collapsed"
+              className="navbar-toggle collapsed"
               data-toggle="collapse"
               data-target="#bs-example-navbar-collapse-1"
               aria-expanded="false"
@@ -18,7 +18,7 @@ function App() {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#">
+            <a href="https://google.com" className="navbar-brand">
               PIZZAMANIA
             </a>
           </div>
@@ -29,13 +29,13 @@ function App() {
           >
             <ul className="nav navbar-nav navbar-right">
               <li>
-                <a href="#">Home</a>
+                <a href="https://google.com">Home</a>
               </li>
               <li>
-                <a href="#">About Pizza</a>
+                <a href="https://google.com">About Pizza</a>
               </li>
               <li>
-                <a href="#">Pizza Types</a>
+                <a href="https://google.com">Pizza Types</a>
               </li>
             </ul>
           </div>
@@ -114,7 +114,11 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <img src="pizza/pizza 3.jpg" alt="pizza" class="img-responsive" />
+            <img
+              src="pizza/pizza 3.jpg"
+              alt="pizza"
+              className="img-responsive"
+            />
           </div>
           <div className="col-md-6">
             <h2>Pizza Is Awesome!</h2>
@@ -151,7 +155,7 @@ function App() {
         </div>
       </div>
 
-      <div clasName="container"></div>
+      <div className="container"></div>
       <div className="row">
         <div className="col-md-3">
           <div className="thumbnail">
